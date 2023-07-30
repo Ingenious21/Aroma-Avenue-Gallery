@@ -62,6 +62,7 @@ footer p {
     .gallery img {
         width: 80%;
         height: auto;
+        margin: 0 auto;
     }
 
     footer {
