@@ -1,0 +1,44 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #FFBABA;
+}
+
+.header {
+    background-color: #820000;
+    height: 70px;
+    border-bottom: 5px solid #F2CD5C;
+    color: white;
+    border-radius: 15px;
+    margin-top: 0;
+}
+
+.header h1 {
+    text-align: center;
+    padding-top: 15px;
+    text-transform: uppercase;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px 19%;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 400px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+footer {
+    margin-top: 100px;
+    text-align: center;
+    color: #400E32;
+}
+
+footer p {
+    margin-top: -20px;
+    font-size: small;
+}
